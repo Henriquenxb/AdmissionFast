@@ -11,3 +11,6 @@
     --text-secondary-color: #e9155b;
 }
 
+body{
+    background-color: var(--secondary-color);
+}
