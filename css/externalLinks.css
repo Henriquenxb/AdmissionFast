@@ -1,6 +1,11 @@
 .external-links-section{
     display: inline-grid;
-    
+    grid-template-columns: 180px 180px;
+    column-gap: 20px;
+    row-gap: 20px;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
 .external-links{
@@ -16,6 +21,75 @@
 
     height: 60px;
     width: 180px;
+}
+
+.img-link-sz{
+    height: 25px;
+    width: 25px;
+    background: url(../icons/SzIconSVG_secondaryColor.svg) no-repeat;
+    background-size: cover;
+}
+
+.img-link-teams{
+    height: 25px;
+    width: 25px;
+    background: url(../icons/TeamsIconSVG_secondaryColor.svg) no-repeat;
+    background-size: cover;
+}
+
+.img-link-escala{
+    height: 25px;
+    width: 25px;
+    background: url(../icons/EscalaIconSVG_secondaryColor.svg) no-repeat;
+    background-size: cover;
+}
+
+.img-link-intranet{
+    height: 25px;
+    width: 25px;
+    background: url(../icons/IntranetIconSVG_secondaryColor.svg) no-repeat;
+    background-size: cover;
+}
+
+.img-link-ramais{
+    height: 25px;
+    width: 25px;
+    background: url(../icons/PhoneEmailSVG_secondaryColor.svg) no-repeat;
+    background-size: cover;
+}
+
+.img-link-chamados{
+    height: 25px;
+    width: 25px;
+    background: url(../icons/ChamadasDevSVG_secondaryColor.svg) no-repeat;
+    background-size: cover;
+}
+
+/* ### */
+
+.external-links:hover .img-link-sz{
+    background: url(../icons/SzIconSVG_white.svg) no-repeat;
+}
+
+.external-links:hover .img-link-teams{
+    background: url(../icons/TeamsIconSVG_white.svg) no-repeat;
+}
+
+.external-links:hover .img-link-escala{
+    background: url(../icons/EscalaIconSVG_white.svg) no-repeat;
+}
+
+.external-links:hover .img-link-intranet{
+    background: url(../icons/IntranetIconSVG_white.svg) no-repeat;
+
+}
+
+.external-links:hover .img-link-ramais{
+    background: url(../icons/PhoneEmailSVG_white.svg) no-repeat;
+}
+
+.external-links:hover .img-link-chamados{
+    background: url(../icons/ChamadasDevSVG_white.svg) no-repeat;
 }
 
 .external-links:hover{
