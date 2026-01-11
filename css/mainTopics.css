@@ -1,16 +1,20 @@
 .main-topics{
     margin-bottom: 80px;
+    width: 100%;    
+}
+
+.row-topics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .main-topics a{
     font-style: none;
     text-decoration: none;
     font-family: var(--secondary-font-family);
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    
 }
 
 .auxiliary-pages{
@@ -21,10 +25,9 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    align-items:start;
+    align-items:c;
     height: 280px;
     max-width: 320px;
-    margin-bottom: 20px;
 }
 
 .auxiliary-pages:hover{
@@ -58,3 +61,12 @@
     font-weight: 550;
 }
 
+@media screen and (min-width: 768px){
+    .row-topics{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding-left: auto;
+        padding-right: auto;
+    }
+}

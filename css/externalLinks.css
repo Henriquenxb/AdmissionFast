@@ -1,6 +1,6 @@
 .external-links-section{
     display: inline-grid;
-    grid-template-columns: 180px 180px;
+    grid-template-columns: 180px;
     column-gap: 20px;
     row-gap: 20px;
     width: 100%;
@@ -132,3 +132,14 @@
 
 
 
+@media screen and (min-width: 480px){
+    .external-links-section{
+        grid-template-columns: 180px 180px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .external-links-section{
+        grid-template-columns: 180px 180px 180px;
+    }
+}
