@@ -1,5 +1,6 @@
-.main-section h1, p{
+.main-section h1, .main-section p{
     font-family: "Montserrat", sans-serif;
+    color: var(--text-main-color);
 }
 
 
