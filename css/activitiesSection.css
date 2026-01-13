@@ -1,0 +1,47 @@
+.activities-section{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.activities-section h2{
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    color: var(--text-secondary-color);
+    margin-bottom: 15px;
+}
+
+.activities-section p{
+    font-family: var(--secondary-font-family);
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+
+.activities-section ol{
+    list-style: disc;
+}
+
+.employee-activities{
+    margin-bottom: 20px;
+    width: 340px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: left;
+}
+
+@media screen and (min-width: 768px){
+    .activities-section{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+    }
+}
