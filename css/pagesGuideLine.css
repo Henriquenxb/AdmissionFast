@@ -24,4 +24,13 @@
     font-family: var(--main-font-family);
     font-weight: 600;
     font-size: 18px;
+    color: var(--text-main-color);
+}
+
+.ul-pages-guide a p{
+    color: var(--text-main-color);
+}
+
+.ul-pages-guide a p:hover{
+    color: var(--text-secondary-color);
 }
