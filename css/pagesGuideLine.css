@@ -25,3 +25,11 @@
     font-weight: 600;
     font-size: 18px;
 }
+
+.ul-pages-guide a p{
+    color: var(--text-main-color);
+}
+
+.ul-pages-guide a p:hover{
+    color: var(--text-secondary-color);
+}
